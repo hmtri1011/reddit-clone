@@ -1,0 +1,20 @@
+{
+  "name": "reddit-clone",
+  "version": "1.0.0",
+  "description": "Reddit clone to study fullstack React, Typescript, PostgreSQL and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "start-ts": "ts-node src/index.ts",
+    "dev-ts": "nodemon --exec dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.6.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  }
+}
